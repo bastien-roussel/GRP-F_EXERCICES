@@ -1,0 +1,22 @@
+/* EXERCICE 1 */
+
+#mon-titre {
+  color: blue;
+  text-align: center;
+  font-weight: 900;
+  /* EXERCICE 2 */
+  margin: 0;
+}
+
+.mon-super-header {
+  background-color: #7d7d7d;
+  /* EXERCICE 2 */
+  padding: 10px 50px 10px 50px;
+}
+
+
+/* EXERCICE 2 */
+
+body {
+  margin: 0;
+}

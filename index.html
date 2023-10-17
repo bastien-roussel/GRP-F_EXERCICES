@@ -5,27 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Un bo titre</title>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <!-- EXERCICE 1 -->
-    <h1>Bienvenue</h1>
+    <header class="mon-super-header">
+        <h1 id="mon-titre">Bienvenue</h1>
 
-    <nav>
-        <ul>
-            <li>
-                <a href="https://google.fr" target="_blank">GOOGLE</a>
-            </li>
+        <nav>
+            <ul>
+                <li>
+                    <a href="https://google.fr" target="_blank">GOOGLE</a>
+                </li>
 
-            <li>
-                <a href="https://iut-amiens.fr">IUT</a>
-            </li>
+                <li>
+                    <a href="https://iut-amiens.fr">IUT</a>
+                </li>
 
-            <li>
-                <button disabled>CONNEXION</button>
-            </li>
-        </ul>
-    </nav>
+                <li>
+                    <button disabled>CONNEXION</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
 
     <!-- BONUS EX 1 : Une liste ordonnée (=numérotée) -->
     <ol>
@@ -104,21 +108,21 @@
 
     </section>
 
+    <br><br><br>
+    <footer>
+        <img src="./assets/tuto_dl_code.png" alt="Logo google lens" width="100">
+        <!-- <img src="https://play-lh.googleusercontent.com/BDWTTN85mBETnnPg_qekwlk1uCxnbl4wtnVE8cz_WyMHEntEJgQsdJaT4uA0_N0VWg" alt="Logo google lens"> -->
+
+        <!-- EXEMPLE A NE PAS REPRODUIRE : CHEMIN ABSOLU INTERDIT -->
+        <!-- <img src="/Users/bastien/Documents/IUT/2023-2024/GRP-F_Exercices/assets/tuto_dl_code.png" alt="Logo google lens" width="100"> -->
+
+        <p>
+            Développé par <a href="mailto:bastien.roussel.pro@gmail.com?subject=coucou&body=truc">BR</a>
+        </p>
+    </footer>
 </body>
-
-<br><br><br>
-
 <!-- EXERCICE 3-->
-<footer>
-    <img src="./assets/tuto_dl_code.png" alt="Logo google lens" width="100">
-    <!-- <img src="https://play-lh.googleusercontent.com/BDWTTN85mBETnnPg_qekwlk1uCxnbl4wtnVE8cz_WyMHEntEJgQsdJaT4uA0_N0VWg" alt="Logo google lens"> -->
 
-    <!-- EXEMPLE A NE PAS REPRODUIRE : CHEMIN ABSOLU INTERDIT -->
-    <img src="/Users/bastien/Documents/IUT/2023-2024/GRP-F_Exercices/assets/tuto_dl_code.png" alt="Logo google lens" width="100"> -->
 
-    <p>
-        Développé par <a href="mailto:bastien.roussel.pro@gmail.com?subject=coucou&body=truc">BR</a>
-    </p>
-</footer>
 
 </html>
