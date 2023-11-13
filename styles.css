@@ -20,3 +20,18 @@
 body {
   margin: 0;
 }
+
+.ma-belle-liste {
+  list-style-type: none;
+}
+
+.list-items {
+  display: inline;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.liens {
+  text-decoration: none;
+  color: inherit;
+}
