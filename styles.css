@@ -50,3 +50,27 @@ body {
   color: white;
   cursor: pointer;
 }
+
+
+/* EXERCICE 4 */
+
+article {
+  border: 2px black dashed;
+  margin: 2em;
+  padding: 1em;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(./assets/polices/Roboto-Regular.ttf);
+}
+
+h2,
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+.auteur {
+  font-style: italic;
+  font-size: 0.7em;
+}
