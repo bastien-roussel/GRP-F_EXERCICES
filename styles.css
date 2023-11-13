@@ -35,3 +35,18 @@ body {
   text-decoration: none;
   color: inherit;
 }
+
+
+/* EXERCICE 3 */
+
+.mon-bo-btn {
+  border-radius: 25em;
+  background-color: rgb(159, 250, 147);
+  padding: 1.5em;
+}
+
+.mon-bo-btn:hover {
+  background-color: #393939;
+  color: white;
+  cursor: pointer;
+}
